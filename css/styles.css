@@ -96,6 +96,7 @@ color:  #2e2f42;
     width: 1158px;
     display: flex;
     margin-right: 76px;
+    margin: 0 auto;
     justify-content: space-between;
 }
 
@@ -106,6 +107,7 @@ color:  #2e2f42;
 .main-nav{
     display: flex;
     align-items: center;
+    margin-right: 76px;
 }
     
 
@@ -250,14 +252,12 @@ font-weight: 700;
 line-height: 1.11; 
 letter-spacing: 0.02em;
 text-transform: capitalize;
-padding-top: 120px;
 margin-bottom: 72px;
 }
 
 .team-list{
     display: flex;
-    column-gap: 24px;
-padding-bottom: 120px;
+    gap: 24px;
    
 }
 
@@ -302,9 +302,6 @@ font-size: 16px;
 
 /* 4 section */
 
-.fourth-section{
-    padding-bottom: 120px;
-}
 
 .fourth-section-title{
     color: #2E2F42;
@@ -314,7 +311,6 @@ font-size: 16px;
     line-height: 1.11;
     letter-spacing: 0.02em; /* 111.111% */
     text-transform: capitalize;
-    padding-bottom: 0;
     margin-bottom: 72px;
 }
     
