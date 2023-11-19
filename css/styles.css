@@ -107,9 +107,12 @@ color:  #2e2f42;
 .main-nav{
     display: flex;
     align-items: center;
-    margin-right: 76px;
-}
     
+}
+
+.logo-style{
+    margin-right: 76px;
+    }
 
 .menu{
     display: flex;
@@ -170,6 +173,7 @@ padding-bottom: 24px;
   background-color:#2E2F42; 
   height: 600px;
   text-align: center;
+  padding: 188px 0
 }
 
 
@@ -184,7 +188,7 @@ letter-spacing: 0.02em;
 max-width: 496px;
 margin-left: auto;
 margin-right: auto;
-padding: 188px 0 48px 0;
+margin-bottom: 48px;
 
 }
 
