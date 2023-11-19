@@ -69,8 +69,7 @@ body{
   }
 
   .section{
-    padding-top: 120px;
-    padding-bottom: 72px;
+    padding:120px 0;
   }
 
 /* logo */
@@ -89,9 +88,14 @@ color:  #2e2f42;
 }
 /* HEDER */
 
+.top-header{
+    border-bottom: 1px solid #e7e9fc;
+}
+
 .page-header-container{
-    width: 1128px;
+    width: 1158px;
     display: flex;
+    margin-right: 76px;
     justify-content: space-between;
 }
 
@@ -107,7 +111,7 @@ color:  #2e2f42;
 
 .menu{
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
     margin-left: 76px;
 }
 
@@ -135,7 +139,7 @@ padding-bottom: 24px;
 
  .contacts{
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
 }
 
 
@@ -175,15 +179,15 @@ font-weight: 700;
 line-height: 1.07; 
 letter-spacing: 0.02em;
 
-width: 496px;
+max-width: 496px;
 margin-left: auto;
 margin-right: auto;
-padding-top: 188px;
-padding-bottom: 48px;
+padding: 188px 0 48px 0;
 
 }
 
 .first-section-button{
+display: block;
 background:  #4D5AE5;
 /* button txt */
 color: #FFF;
@@ -192,7 +196,12 @@ font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.04em;
 
+min-width: 169px ;
+height: 56px;
+margin-left: auto;
+margin-right: auto;
 padding: 16px 32px;
+border: none;
 border-radius: 4px;
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
@@ -205,9 +214,12 @@ background: #404BBF;
 /* 2 section benefits */
 .benefits{
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
 }
 
+.benefits-item{
+    width: calc((100% - 72px) / 4);
+}
 
 .benefits-item-title{
 color: #2e2f42;
@@ -216,19 +228,18 @@ font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.02em; 
 
-padding-top: 120px;
-padding-bottom: 8px;
+margin-bottom: 8px;
 }
 
 .benefits-p{
 font-size: 16px;
 letter-spacing: 0.02em; 
-padding-bottom: 120px;
 }
 
 /* 3 section */
 .third-section{
     background: #F4F4FD;
+   
 }
 
 .third-section-title{
@@ -239,6 +250,8 @@ font-weight: 700;
 line-height: 1.11; 
 letter-spacing: 0.02em;
 text-transform: capitalize;
+padding-top: 120px;
+margin-bottom: 72px;
 }
 
 .team-list{
@@ -278,7 +291,7 @@ font-size: 20px;
 font-weight: 500;
 line-height: 1.2; /* 120% */
 letter-spacing: 0.02em;
-padding-bottom: 8px;
+margin-bottom: 8px;
 }
 
 .team-txt{
@@ -301,7 +314,10 @@ font-size: 16px;
     line-height: 1.11;
     letter-spacing: 0.02em; /* 111.111% */
     text-transform: capitalize;
-    }
+    padding-bottom: 0;
+    margin-bottom: 72px;
+}
+    
     
     .portfolio-list{
         display: flex;
@@ -341,6 +357,7 @@ font-size: 16px;
 .bottom{
     background:#2E2F42;
     height: 312px;
+    padding: 100px 0
 }
 
 .bottom-txt{
@@ -351,8 +368,9 @@ font-size: 16px;
 }
 
 .logo-footer{
-    display: flex;
-    padding: 101.5px 0 17.5px 0;
+    display: inline-block; 
+    margin-bottom: 16px;
+    
 }
 
 .logo-text{
