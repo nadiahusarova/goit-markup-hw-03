@@ -205,7 +205,7 @@ background: #404BBF;
 /* 2 section benefits */
 .benefits{
   display: flex;
-  /* column-gap: 24px; */
+  column-gap: 24px;
 }
 
 
@@ -244,8 +244,7 @@ text-transform: capitalize;
 .team-list{
     display: flex;
     column-gap: 24px;
-    padding-bottom: 120px;
-
+padding-bottom: 120px;
    
 }
 
@@ -261,13 +260,13 @@ text-transform: capitalize;
      border: none;
 }
 
-.team-list-img{
-    padding-bottom: 32px;
+.team-card{
+    padding: 32px 0;
+    text-align: center;
 }
 
 .team-title,
 .team-txt{
-    background-color: #FFF;
     letter-spacing: 0.02em;
 
 }
@@ -283,60 +282,79 @@ padding-bottom: 8px;
 }
 
 .team-txt{
-/* color: #434455; */
+color: #434455;
 text-align: center;
 font-size: 16px;
-padding-bottom: 32px;
 }
 
 /* 4 section */
+
+.fourth-section{
+    padding-bottom: 120px;
+}
+
 .fourth-section-title{
-color: #2E2F42;
-text-align: center;
-font-size: 36px;
-font-weight: 700;
-line-height: 1.11;
-letter-spacing: 0.02em; /* 111.111% */
-text-transform: capitalize;
-}
-
-.portfolio-list{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.portfolio-list-item{
- border: 1px solid #E7E9FC;
-
-}
-
-.portfolio-title{
-color: #2E2F42;
-font-size: 20px;
-font-weight: 500;
-line-height: 1.2; /* 120% */
-letter-spacing: 0.02em;
-}
-
-
-.portfolio-txt{
-    color: var(--SLATE, #434455);
-    font-size: 16px;
+    color: #2E2F42;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em; /* 111.111% */
+    text-transform: capitalize;
+    }
+    
+    .portfolio-list{
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 24px;
+        row-gap: 48px;
+    }
+    
+   
+    .portfolio-title{
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2; /* 120% */
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
+    }
+    
+    
+    .portfolio-txt{
+        color: var(--SLATE, #434455);
+        font-size: 16px;
+        letter-spacing: 0.02em;
+    }
+    
+ .portfolio-card{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    background: var(--WHITE, #fff);
 }
 
-border: 1px solid var(--CORNFLOWER, #E7E9FC);
+
+
+
 /* footer */
 .bottom{
     background:#2E2F42;
+    height: 312px;
 }
 
 .bottom-txt{
     color: #F4F4FD;
     font-size: 16px;
     letter-spacing: 0.02em;
-
+    width: 264px;
 }
+
+.logo-footer{
+    display: flex;
+    padding: 101.5px 0 17.5px 0;
+}
+
 .logo-text{
     color: #f4f4fd;
 }
